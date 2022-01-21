@@ -1,0 +1,2 @@
+# DeVoS
+Decentralized Voting System
