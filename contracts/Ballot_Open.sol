@@ -2,6 +2,9 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 
+/** @title Ballot_Open
+ *  @notice Contract for voting on the chain. Use-Case for public polls.
+ */
 contract Ballot_Open{
 
     struct vote{
@@ -40,6 +43,8 @@ contract Ballot_Open{
         _;
     }
 
+    /// @param _blockTime current Time
+    /// @notice checks if the voting time has run out
     modifier validVotingTime(uint _blockTime){
         require(_blockTime < timeEnd);
         _;
