@@ -1,2 +1,5 @@
 # Migrations & Compilations
-build/
+bc-backend/build
+
+# Other
+__deprecated/

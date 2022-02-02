@@ -25,3 +25,8 @@ Apply Ganache-Configurations to Network specifications in truffle-config.js and 
 If the transactions are registered correctly, everything is set.
 
 Alternatively, use the Remix IDE ( https://remix.ethereum.org/ ) and export the contracts to the Web-IDE. 
+
+
+### Web3
+
+Work in Progress
