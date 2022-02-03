@@ -1,5 +1,5 @@
 # Migrations & Compilations
-bc-backend/build
+node_modules
 
 # Other
 __deprecated/
