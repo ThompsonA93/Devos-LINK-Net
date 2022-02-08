@@ -43,3 +43,6 @@ Alternatively, run the following commands via terminal/shell as deemed necessary
 * https://reactjs.org/docs/create-a-new-react-app.html 
 * https://trufflesuite.com/ganache/
 * https://remix.ethereum.org/ 
+
+## Notes
+* Web3 and React >=5 incompatibility solved as per https://github.com/ChainSafe/web3.js#web3-and-create-react-app

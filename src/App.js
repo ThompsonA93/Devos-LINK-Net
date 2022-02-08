@@ -1,20 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react/cjs/react.production.min';
-//import Web3 from 'web3';
-//import configData from "conf.json";
+import Web3 from 'web3';
+import configData from "./conf.json";
 
-/*
-function App(){
-  const providerUrl = configData.BC_URL;  // URL of Blockchain-Network
 
-  useEffect( () => {
-    const web3 = new Web3(providerUrl);
-  }, []);
-}
-*/
 
 function App() {
+  const providerUrl = configData.PROVIDER_URL;
+  const BC_URL = configData.BC_URL; 
+  const web3 = new Web3(providerUrl);
+
   return (
     <div className="App">
       <header className="App-header">
