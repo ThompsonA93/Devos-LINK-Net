@@ -1,15 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react/cjs/react.production.min';
 import Web3 from 'web3';
-import configData from "./conf.json";
 
 
 
 function App() {
-  const providerUrl = configData.PROVIDER_URL;
-  const BC_URL = configData.BC_URL; 
-  const web3 = new Web3(providerUrl);
+  window.addEventListener('load', function () {
+    if (window.ethereum) {
+        window.web3 = new Web3(ethereum);
+        ethereum.enable()
+            .then(() => {
+                console.log("Ethereum enabled");
+
+                web3.eth.getAccounts(function (err, acc) {
+                    if (err != null) {
+                        self.setStatus("There was an error fetching your accounts");
+                        return;
+                    }
+                    if (acc.length > 0) {
+                        console.log(acc);
+                    }
+                });
+            })
+            .catch(() => {
+                console.warn('User didn\'t allow access to accounts.');
+                waitLogin();
+            });
+    } else {
+        console.log("Non-Ethereum browser detected. You should consider installing MetaMask.");
+    }
+  });
 
   return (
     <div className="App">
