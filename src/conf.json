@@ -1,5 +1,0 @@
-{
-    "PROVIDER_URL": "http://127.0.0.1:9545",
-    "BC_URL": "http://127.0.0.1:7545",
-    "BC_NETWORKID": "*"
-}

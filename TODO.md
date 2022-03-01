@@ -15,3 +15,5 @@
 - [x] Create basic smart contracts
 - [x] Checkout local blockchain deployment
 - [x] Create Use-Cases for different contracts
+- [x] Refactor project from NodeJS to Python3-Flask Provider
+  - NodeJS seemed Overkill for this project & too burdensome to setup and run the project on new Hosts.
