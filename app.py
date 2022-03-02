@@ -12,7 +12,12 @@ def welcome():
 
 @app.route("/governance")
 def governance():
-    return render_template('index.html')
+    return render_template('governance.html')
 
-if __name__ == "__main__":
-        app.run(debug=True)
+@app.route("/forum")
+def forum():
+    return render_template('forum.html')
+
+@app.route("/profile")
+def profile():
+    return render_template('profile.html')
