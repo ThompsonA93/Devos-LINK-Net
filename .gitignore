@@ -1,5 +1,10 @@
 # Migrations & Compilations
 node_modules
+
+# Python3
+venv/
+*.pyc
 __pycache__
+
 # Other
 __deprecated/

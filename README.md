@@ -25,10 +25,11 @@ Execute '__launch.sh' with corresponding flags:
 Note: In order to migrate (-m) the contracts, the local blockchain must be up and running.
 
 ## References & Links
-|                   |                                            |
-| -----------       | -----------                                |
-| Flask             | https://palletsprojects.com/p/flask/       |
-| Web3Py            | https://web3py.readthedocs.io/en/stable/   |
-| Ganache CLI       | https://www.npmjs.com/package/ganache      |
-| Truffle           | https://www.npmjs.com/package/truffle      | 
-| Ethereum          | https://ethereum.org                       |
+|                   |                                               |
+| -----------       | -----------                                   |
+| Flask             | https://palletsprojects.com/p/flask/          |
+| Web3Py            | https://web3py.readthedocs.io/en/stable/      |
+| Ganache CLI       | https://www.npmjs.com/package/ganache         |
+| Truffle           | https://www.npmjs.com/package/truffle         | 
+| Ethereum          | https://ethereum.org                          |
+| Bootstrap         | https://getbootstrap.com/                     |
