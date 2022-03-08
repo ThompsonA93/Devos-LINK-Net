@@ -1,11 +1,15 @@
 const web3 = new Web3("http://localhost:7545")
 
-web3.eth.getBlockNumber(function (error, result) {
-  blocknumber.innerHTML = "Blocks mined: "+result;
-})
-
 if (typeof window.ethereum !== 'undefined') {
-  console.log( 'MetaMask is installed.');
+  metamaskInstalled.innerHTML += "MetaMask is installed."
 }else{
-  console.log( 'MetaMask is not installed.');
+  metamaskInstalled.innerHTML += "MetaMask is not installed."
 }
+      
+web3.eth.net.isListening()
+  .then(() => chainInfo.innerHTML += "Web3-Provider Frontend connection successfull."  )
+  .catch(e => chainInfo.innerHTML += 'Web3-Provider Frontend connection not successfull: '+ e );
+
+web3.eth.getBlockNumber(function (error, result) {
+  chainInfo.innerHTML += "Current Block #"+result;
+})
