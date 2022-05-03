@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 -m flask run
+cd devoserv
+python3 manage.py runserver
