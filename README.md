@@ -1,4 +1,5 @@
 # Devos-LINKNET
 
-# Hardhat Starter Kit
-Based on the repository [Hardhat-Starter-Kit](https://github.com/smartcontractkit/hardhat-starter-kit/tree/main)
+## Requirements
+- 2 CPU cores
+- 4 GB RAM
