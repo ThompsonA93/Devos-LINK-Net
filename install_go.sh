@@ -5,6 +5,6 @@ sudo rm -rf /usr/local/go
 wget https://go.dev/dl/go1.20.5.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.20.5.linux-amd64.tar.gz
 ls /usr/local/go
-export PATH=$PATH:/usr/local/go/bin
 
+export PATH=$PATH:/usr/local/go/bin
 go version

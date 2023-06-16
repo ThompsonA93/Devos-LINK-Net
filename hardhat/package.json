@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fork-main": "npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>",
-    "postinstall": "echo \"Please setup the blockchain endpoint in package.json for scripts/fork-main.\""
+    "postinstall": "echo \"Please setup the blockchain endpoint. For an example, check package.json,scripts.fork-main\""
   },
   "repository": {
     "type": "git",
