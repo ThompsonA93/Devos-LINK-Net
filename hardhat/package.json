@@ -1,0 +1,25 @@
+{
+  "name": "devos-link-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fork-main": "npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>",
+    "postinstall": "echo \"Please setup the blockchain endpoint in package.json for scripts/fork-main.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ThompsonA93@github.com/ThompsonA93/Devos-LINK-Net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThompsonA93/Devos-LINK-Net/issues"
+  },
+  "homepage": "https://github.com/ThompsonA93/Devos-LINK-Net#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.15.0"
+  }
+}
