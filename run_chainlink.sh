@@ -10,14 +10,6 @@ TLS.HTTPSPort = 0
 [Insecure]
 DevWebServer = true
 
-[[EVM]]
-ChainID = '1337'
-Enabled = false
-
-[[EVM.Nodes]]
-Name = 'Simulated'
-WSURL = 'ws://localhost:8545'
-HTTPURL = 'https://localhost:8080'
 " > chainlink/config.toml
 
 echo "[Password]
